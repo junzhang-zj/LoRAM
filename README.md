@@ -31,13 +31,15 @@ Clone the repository and install dependencies:
 git clone https://github.com/your-repo/LoRAM.git
 cd LoRAM
 pip install -r requirements.txt
+```
 
 ---
 
-## 🙌 Acknowledgments
+## 🙌 Acknowledgments  
 LoRAM leverages tools from [LLM-Pruner](https://github.com/horseee/LLM-Pruner) and [SparseGPT](https://github.com/IST-DASLab/sparsegpt).
 We appreciate the contributions of their developers to the research community.
 
+---
 
 ## 📖 Citation
 If you find the resources in this repository useful, please cite our paper:
@@ -52,3 +54,4 @@ year={2025},
 url={https://openreview.net/forum?id=s7DkcgpRxL}
 }
 ```
+---
