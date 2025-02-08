@@ -1,10 +1,8 @@
 <div align="center">
-<h1><img src="assets/loram.png" height="40px" align="top"/> Train Small, Infer Large: <br> Memory-Efficient LoRA Training for LLMs
-</h1>
-<div align="center">
-LoRAM is a memory-efficient LoRA training for cost-effective performance gains by <br> training low-rank matrices on a pruned model and merging recovered them for inference on the original model.
-</div> 
-<div align="center">
+<h1>🚀 <img src="assets/loram.png" height="40px" align="top"/> Train Small, Infer Large: <br> Memory-Efficient LoRA Training for LLMs</h1>
+
+LoRAM is a memory-efficient LoRA training method for cost-effective performance gains by <br> training low-rank matrices on a pruned model and merging them for inference on the original model.
+
 <b><a href="https://github.com/junzhang-zj">Jun Zhang</a></b><sup>1</sup>,
 <b><a href="https://github.com/LorrinWWW">Jue Wang</a></b><sup>1</sup>,
 <b><a href="https://github.com/longaspire">Huan Li</a></b><sup>1</sup>,
@@ -13,20 +11,35 @@ LoRAM is a memory-efficient LoRA training for cost-effective performance gains b
 <b><a href=""><br>Yang You</a></b><sup>2</sup>,
 <b><a href="">Guiming Xie</a></b><sup>3</sup>,
 <b><a href="">Xuejian Gong</a></b><sup>3</sup>,
-<b><a href="">Kunlong Zhou</a></b><sup>3</sup>,
-</div> 
+<b><a href="">Kunlong Zhou</a></b><sup>3</sup>
 
-<sup>1</sup> Zhejiang University,   <sup>2</sup>National University of Singapore, <sup>3</sup>OPPO AI Center 
+<sup>1</sup> 🎓 Zhejiang University,   <sup>2</sup> 🏛 National University of Singapore, <sup>3</sup> 🏢 OPPO AI Center  
+</div>  
 
-----------
+---
 
-## Acknowledgments
+## 🔥 Features  
+✅ Train on a **pruned model** to reduce memory consumption  
+✅ **Recover** and merge LoRA weights for full-model inference  
+
+---
+
+## 🛠 Installation  
+
+Clone the repository and install dependencies:  
+```bash
+git clone https://github.com/your-repo/LoRAM.git
+cd LoRAM
+pip install -r requirements.txt
+
+---
+
+## 🙌 Acknowledgments
 LoRAM leverages tools from [LLM-Pruner](https://github.com/horseee/LLM-Pruner) and [SparseGPT](https://github.com/IST-DASLab/sparsegpt).
 We appreciate the contributions of their developers to the research community.
 
 
-## Citation
-
+## 📖 Citation
 If you find the resources in this repository useful, please cite our paper:
 
 ```
