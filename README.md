@@ -1,2 +1,3 @@
-# LoRAM
-[ICLR2025] Code associated with the paper Train Small, Infer Large: Memory-Efficient LoRA Training for Large Language Models, at ICLR 2025
+<div align="center">
+<h1><img src="assets/loram.png" height="40px" align="top"/> Train Small, Infer Large: Memory-Efficient LoRA Training for LLMs
+</h1>
