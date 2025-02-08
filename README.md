@@ -1,5 +1,5 @@
 <div align="center">
-<h1>🚀 <img src="assets/loram.png" height="40px" align="top"/> Train Small, Infer Large: <br> Memory-Efficient LoRA Training for LLMs</h1>
+<h1><img src="assets/loram.png" height="40px" align="top"/> Train Small, Infer Large: <br> Memory-Efficient LoRA Training for LLMs</h1>
 
 LoRAM is a memory-efficient LoRA training method for cost-effective performance gains by <br> training low-rank matrices on a pruned model and merging them for inference on the original model.
 
