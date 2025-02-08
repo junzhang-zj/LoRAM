@@ -13,7 +13,7 @@ LoRAM is a memory-efficient LoRA training method for cost-effective performance 
 <b><a href="">Xuejian Gong</a></b><sup>3</sup>,
 <b><a href="">Kunlong Zhou</a></b><sup>3</sup>
 
-<sup>1</sup> 🎓 Zhejiang University,   <sup>2</sup> 🏛 National University of Singapore, <sup>3</sup> 🏢 OPPO AI Center  
+<sup>1</sup> Zhejiang University,   <sup>2</sup> National University of Singapore, <sup>3</sup> OPPO AI Center  
 </div>  
 
 ---
