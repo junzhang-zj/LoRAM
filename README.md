@@ -19,8 +19,8 @@ LoRAM is a memory-efficient LoRA training method for cost-effective performance 
 ---
 
 ## 🔥 Features  
-✅ Train on a **pruned model** to reduce memory consumption  
-✅ **Recover** and merge LoRA weights for full-model inference  
+✅ Train LoRA on a **pruned model** to reduce memory footprint  
+✅ Recover LoRA for high-qulity **full model** inference  
 
 ---
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ## 🙌 Acknowledgments  
 LoRAM leverages tools from [LLM-Pruner](https://github.com/horseee/LLM-Pruner) and [SparseGPT](https://github.com/IST-DASLab/sparsegpt).
-We appreciate the contributions of their developers to the research community.
+We appreciate the contributions to the research community.
 
 ---
 
