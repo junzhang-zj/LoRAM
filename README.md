@@ -1,8 +1,8 @@
 <div align="center">
 <h1><img src="assets/loram.png" height="40px" align="top"/> Train Small, Infer Large: <br> Memory-Efficient LoRA Training for LLMs</h1>
 
-<h2 style="background: linear-gradient(to right, #ff416c, #ff4b2b); -webkit-background-clip: text; color: transparent; font-weight: bold;">
-8～12× Parameter Reduction ↓
+<h2 style="color: #6a5acd; font-weight: bold;">
+🚀 8×～12× Parameter Reduction ⬇️
 </h2>
 LoRAM is a memory-efficient LoRA training method for cost-effective performance gains by <br> training low-rank matrices on a pruned model and merging them for inference on the original model.
 
