@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ## 🙌 Acknowledgments  
 LoRAM leverages tools from [LLM-Pruner](https://github.com/horseee/LLM-Pruner) and [SparseGPT](https://github.com/IST-DASLab/sparsegpt).
-We appreciate the contributions to the research community.
+<br>We appreciate the contributions to the research community.
 
 ---
 
