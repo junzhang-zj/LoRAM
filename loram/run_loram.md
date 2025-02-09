@@ -1,6 +1,6 @@
 # LoRAM (Train Large, Infer Small)
 
-`<u>`*A Simple and Effective Memory-Efficient LoRA Training Scheme Using LLaMA-3.1-70B as an Example*`</u>`
+<u>*A Simple and Effective Memory-Efficient LoRA Training Scheme Using LLaMA-3.1-70B as an Example*</u>
 
 ## 0: Pruned Full-Rank Weight Generation
 
