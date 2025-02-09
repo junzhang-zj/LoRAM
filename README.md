@@ -50,7 +50,7 @@ pip install -r requirements.txt
 This project was made possible thanks to a collaboration with:  
 <a href="https://www.zju.edu.cn/"><img src="assets/zju_logo.png" height="35"></a> &nbsp;&nbsp;&nbsp;
 <a href="https://nus.edu.sg/"><img src="assets/nus_logo.png" height="35"></a> &nbsp;&nbsp;&nbsp;
-<a href="https://www.oppo.com/"><img src="assets/oppo_logo.png" height="25"></a>  
+<a href="https://www.oppo.com/"><img src="assets/oppo_logo.png" height="35"></a>  
 
 ### 🤝 Tool Contributions  
 LoRAM leverages tools from [LLM-Pruner](https://github.com/horseee/LLM-Pruner) and [SparseGPT](https://github.com/IST-DASLab/sparsegpt).  
