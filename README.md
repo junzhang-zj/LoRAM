@@ -54,7 +54,7 @@ This project was made possible thanks to a collaboration with:
 
 ### 🤝 Tool Contributions  
 Shout out to [LLM-Pruner](https://github.com/horseee/LLM-Pruner) and [SparseGPT](https://github.com/IST-DASLab/sparsegpt)! 
-LoRAM leverages these tools, and we appreciate their contributions to the research community.
+<br>LoRAM leverages these tools, and we appreciate their contributions to the research community.
 
 
 ---
