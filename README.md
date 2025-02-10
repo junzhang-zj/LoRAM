@@ -53,8 +53,8 @@ This project was made possible thanks to a collaboration with:
 <a href="https://www.oppo.com/"><img src="assets/oppo_logo.png" height="35"></a>  
 
 ### 🤝 Tool Contributions  
-LoRAM leverages tools from [LLM-Pruner](https://github.com/horseee/LLM-Pruner) and [SparseGPT](https://github.com/IST-DASLab/sparsegpt).  
-We appreciate their contributions to the research community.
+Shout out to [LLM-Pruner](https://github.com/horseee/LLM-Pruner) and [SparseGPT](https://github.com/IST-DASLab/sparsegpt)! 
+LoRAM leverages these tools, and we appreciate their contributions to the research community.
 
 
 ---
