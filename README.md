@@ -1,5 +1,12 @@
 <div align="center">
-<h1><img src="assets/loram_logo.png" height="100px" align="top"/> <br> Train Small, Infer Large: <br> Memory-Efficient LoRA Training for LLMs</h1>
+<h1>
+    <img src="assets/loram_logo.png" height="100px" align="top"/>  
+    <br>  
+    <em>Train Small, Infer Large</em>  
+    <br>  
+    Memory-Efficient LoRA Training for LLMs
+</h1>
+
 
 <h2 style="color: #6a5acd; font-weight: bold;">
 🚀 8×～12× Parameter Reduction ⬇️
