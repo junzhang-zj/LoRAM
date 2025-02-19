@@ -45,8 +45,7 @@ LoRAM is a memory-efficient LoRA training method for cost-effective performance 
 Clone the repository and install dependencies:  
 ```bash
 git clone https://github.com/your-repo/LoRAM.git
-cd LoRAM
-pip install -r requirements.txt
+cd LoRAM/loram
 ```
 
 ---
