@@ -37,7 +37,7 @@ LoRAM is a memory-efficient LoRA training method for cost-effective performance 
 ---
 ## 📌 Overview 
 <div align="center">
-  <img src="assets/repository_overview.png" alt="Repository Overview" width="100%"/>
+  <img src="assets/teaser.png" alt="Repository Overview" width="100%"/>
 </div>
 
 ---
