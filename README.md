@@ -44,7 +44,7 @@ LoRAM is a memory-efficient LoRA training method for cost-effective performance 
 
 ## 🔥 Features  
 ✅ Train LoRA on a **pruned model** to reduce memory footprint  
-✅ Recover LoRA for high-qulity **full model** inference  
+✅ Recover LoRA for high-quality **full model** inference  
 
 ---
 
