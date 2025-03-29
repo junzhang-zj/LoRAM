@@ -4,6 +4,7 @@ import torch
 import transformers
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, set_seed
 from peft import LoraConfig, get_peft_model
+import wandb
 
 def print_trainable_parameters(model):
     """
@@ -23,13 +24,29 @@ def main(args):
     # Set Seed & WanDB
     print(f"begin to set seed {args.seed}")
     set_seed(args.seed)
-    output_dir = f"{args.output_dir}/{args.wandb_name}"
-    os.environ["WANDB_PROJECT"] = args.wandb_project
-    os.environ["WANDB_NAME"] = args.wandb_name
+    
+    args.wandb_name = os.path.basename(args.wandb_name)  
+
+    output_dir = args.output_dir 
+
+
+    wandb.init(
+        project=args.wandb_project,
+        name=args.wandb_name,          
+        dir=output_dir,                
+        config=args,
+        mode="online",
+        settings=wandb.Settings(start_method="fork") 
+    )
+
     os.environ["WANDB__SERVICE_WAIT"] = "600"
-    os.environ["WANDB_DIR"] = output_dir
-    os.environ["WANDB_MODE"] = "online"
-    print(f"begin to set wandb project {args.wandb_project} \n name {args.wandb_name} \n output {output_dir}")
+
+    print(f"""
+    WandB initialize finish：
+    Project: {args.wandb_project}
+    Name: {wandb.run.name}  
+    Output Dir: {output_dir}
+    """)
 
     # Load Full Model
     bnb_config = BitsAndBytesConfig(
@@ -45,7 +62,13 @@ def main(args):
                                              device_map="auto",
                                             #  quantization_config=bnb_config
                                              )
-
+    # Prepare For LoRA
+    if args.peft_model != None:
+        print('loading lora path',args.peft_model)
+        model.load_adapter(args.peft_model)
+        print('pruned lora with pruned model',model)
+    else:
+        print('None load lora')
     model.eval()
     print_trainable_parameters(model)
 
@@ -116,6 +139,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Tuning Pruned LLM')
     # Model Type&Path
     parser.add_argument('--base_model', type=str, default="./", help='base model name')
+    parser.add_argument('--peft_model', type=str, default=None, help='peft model name') 
     parser.add_argument('--train_data_path', type=str, default="./", help='train data path')
     parser.add_argument('--eval_data_path', type=str, default="./", help='eval data path')
     parser.add_argument('--output_dir', type=str, default="./", help='output directory')
